@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 function Problem() {
   const [problem, setProblem] = useState([])
@@ -87,8 +87,7 @@ function Problem() {
                         <td>{topicName}</td>
                         <td>{difficultyName}</td>
                         <td>{a[4]}</td>
-                        <td><Link className='btn btn-info m-2' to={`/${a[0]}`}>Details</Link></td>
-                        {/* <td><button type="button" className="btn-sm btn-primary mx-2">Details</button></td> */}
+                        {/* <td><Link className='btn btn-info m-2' to={`/${a[0]}`}>Details</Link></td> */}
                       </tr>
                     </tbody>
                   </>
